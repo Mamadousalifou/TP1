@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600&family=Outfit:wght@300;400;500&display=swap');
+
+:root {
+
+
+
+--main-bg: hsl(217, 54%, 11%);
+--White: hsl(0, 0%, 100%);
+
+--initial-width: 1440px;
+--Zindex:10;
+
+--font-family: 'Outfit', sans-serif;
+--clr-grey-9: hsl(212, 33%, 89%);
+--clr-gold: #c59d5f;
+
+--transition: all 0.3s linear;
+--spacing: 0.25rem;
+--radius: 0.5rem;
+--light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+--dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+--max-width: 1170px;
+--fixed-width: 620px;
+}
+
+
+*,*::after,*::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:var(--main-bg) ;
+    color: var(--White);
+}
+
+a{
+text-decoration: none;
+}
+
+hr{
+    width:50px;
+    height:6px;
+    background-color:var(--clr-gold);
+    border:none;
+}
+
+nav a{
+
+color:var(--clr-gold);
+width:70px ;
+text-align: center;
+border: 1px solid var(--clr-gold);
+border-radius: 5%;
+outline: var(--clr-gold);
+
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:15px;
+}
+
+.header-content nav{
+    display:flex;
+    justify-content: center;
+    gap:1rem;
+    align-items: center;
+    
+}
+.header-content h1{
+    text-align: center;
+}
+
+.header-content hr{
+    align-items: center;
+}
+
+
+section{
+display: flex;
+flex-wrap: wrap;
+}
+article{
+    display: flex;
+    width: 50%;
+background: red;
+gap: 1rem;
+}
+.baraka{
+display: flex;
+justify-content: space-between;
+}
+
