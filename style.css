@@ -47,14 +47,18 @@ hr{
     border:none;
 }
 
-nav a{
+h1{
+   margin-top: 10px;
+}
 
+nav a{
 color:var(--clr-gold);
-width:70px ;
+width:70px;
 text-align: center;
 border: 1px solid var(--clr-gold);
 border-radius: 5%;
 outline: var(--clr-gold);
+margin: 10px;
 
 }
 .header-content{
@@ -82,17 +86,70 @@ outline: var(--clr-gold);
 
 
 section{
-display: flex;
-flex-wrap: wrap;
-}
-article{
     display: flex;
-    width: 50%;
-background: red;
-gap: 1rem;
+    justify-content: space-between;
+    gap: 20px; /* This adds spacing between articles */
+    padding: 20px;
+    flex-wrap: wrap; /* Allow wrapping of flex items */
+}
+
+.articile-One{
+    display: flex;
+    flex-basis: calc(50% - 20px);
+   justify-content:space-around;
+
+ 
+
 }
 .baraka{
 display: flex;
 justify-content: space-between;
+align-items: center;
+padding: 10px;
 }
+
+
+.baraka p{
+    color:var(--clr-gold) ;
+}
+
+.content-baraka{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+p{
+    padding: 10px;
+    line-height: 20px;  
+}
+
+.content-baraka button{
+    padding:5px;
+    border-radius: 4px;
+    margin-left: 5px;
+    border: 0;
+    outline: none;
+    background-color:orange;
+    font-weight: bold;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+img{
+   width:200px; /* Set image width to 100% of its container */
+    height: 160px;
+    border:3px solid var(--clr-gold);
+    border-radius: 4px;
+   
+}
+
+
 
