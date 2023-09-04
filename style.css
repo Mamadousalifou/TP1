@@ -3,7 +3,6 @@
 :root {
   --main-bg: hsl(217, 54%, 11%);
   --White: hsl(0, 0%, 100%);
-cd
   --initial-width: 1440px;
   --Zindex: 10;
 
@@ -125,10 +124,10 @@ section article {
 .paragraphe button {
   margin-top: 20px;
   width: 80px;
-  background: var(--clr-gold);
+  background:rgb(190, 172, 3);
   height: 20px;
-  border: 2px solid var(--clr-gold);
-  border-radius: 5%;
+ border: none;
+  border-radius: 50px;
   font-family: var(--font-family);
 }
 
