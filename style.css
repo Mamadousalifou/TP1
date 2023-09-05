@@ -34,6 +34,7 @@
 body{
     background-color:var(--main-bg) ;
     color: var(--White);
+    position: relative;  /**/
 }
 
 a{
@@ -63,13 +64,16 @@ outline: var(--clr-gold);
     flex-direction: column;
     justify-content: space-around;
     gap:15px;
+    position: relative;/**/
 }
 
 .header-content nav{
     display:flex;
     justify-content: center;
-    gap:1rem;
+     gap:1rem; 
     align-items: center;
+    position: absolute;/**/
+    top: 100px;  /**/
     
 }
 .header-content h1{
@@ -78,21 +82,204 @@ outline: var(--clr-gold);
 
 .header-content hr{
     align-items: center;
+    position: absolute;
+    top: 85px;
 }
 
 
 section{
 display: flex;
 flex-wrap: wrap;
+gap: 20px;
+position: absolute;
+top: 170px;
 }
 article{
     display: flex;
     width: 50%;
-background: red;
+/* background: red; */
 gap: 1rem;
+flex: 1;
+  /* background-color: #ccc; */
+  padding: 20px;
+  box-sizing: border-box;
 }
 .baraka{
 display: flex;
 justify-content: space-between;
 }
+/*------------------Article1-----------------*/
+.ar1{
+    /* background-color: blue; */
+    display: flex;
+}
+.diar1{
+   /* background-color: black;*/
+}
+.di1ar1{
+   /* background-color: #c59d5f;*/
+    display: flex;
+    justify-content: space-between;
+}
+/*----------------FIN---------------------*/
 
+/*-------------------Article2---------------*/
+.ar2{
+   /* background-color: black;*/
+    display: flex;
+}
+.diar2{
+   /* background-color:blue ;*/
+}
+.di1ar2{
+   /* background-color: aqua;*/
+    display: flex;
+    justify-content: space-between;
+}
+/*-------------------FIN---------------*/
+
+
+/*-------------------Article3---------------*/
+.ar3{
+    /* background-color: black;*/
+     display: flex;
+ }
+ .diar3{
+    /* background-color:blue ;*/
+ }
+ .di1ar3{
+    /* background-color: aqua;*/
+     display: flex;
+     justify-content: space-between;
+ }
+ /*-------------------FIN---------------*/
+
+ /*-------------------Article4---------------*/
+.ar4{
+    /* background-color: black;*/
+     display: flex;
+ }
+ .diar4{
+    /* background-color:blue ;*/
+ }
+ .di1ar4{
+    /* background-color: aqua;*/
+     display: flex;
+     justify-content: space-between;
+ }
+ /*-------------------FIN---------------*/
+
+ /*-------------------Article5---------------*/
+.ar5{
+    /* background-color: black;*/
+     display: flex;
+ }
+ .diar5{
+    /* background-color:blue ;*/
+ }
+ .di1ar5{
+    /* background-color: aqua;*/
+     display: flex;
+     justify-content: space-between;
+ }
+ /*-------------------FIN---------------*/
+
+ /*-------------------Article6---------------*/
+.ar6{
+    /* background-color: black;*/
+     display: flex;
+ }
+ .diar6{
+    /* background-color:blue ;*/
+ }
+ .di1ar6{
+    /* background-color: aqua;*/
+     display: flex;
+     justify-content: space-between;
+ }
+ /*-------------------FIN---------------*/
+
+ /*-------------------Article7---------------*/
+.ar7{
+    /* background-color: black;*/
+     display: flex;
+ }
+ .diar7{
+    /* background-color:blue ;*/
+ }
+ .di1ar7{
+    /* background-color: aqua;*/
+     display: flex;
+     justify-content: space-between;
+ }
+ /*-------------------FIN---------------*/
+
+ /*-------------------Article8---------------*/
+.ar8{
+    /* background-color: black; */
+     display: flex;
+ }
+ .diar8{
+ /* background-color:black ; */
+ width: 340px;
+ }
+ .di1ar8{
+    /* background-color: aqua; */
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .vparagraphe{
+    width: 400px;
+ }
+ .ar8 img{
+    background-color: black;
+    width: 230px;
+ }
+ /*-------------------FIN---------------*/
+
+ /*----------------COLORATION DES BUTTONS*/
+ section button{
+    background-color:goldenrod;
+    border-radius: 10px/10px;
+    width: 80px;
+    height: 30px;
+ }
+
+ /*-----------------Coloration des h6-----------*/
+
+ section h6{
+    /* background-color:var(--clr-gold); */
+    color:var(--clr-gold)
+ }
+
+
+ /*-----------------------Pouvoir jouer sur l'image-----------*/
+
+ article img,
+ .ar1 img,
+ .ar2 img,
+ .ar3 img,
+ .ar4 img,
+ .ar5 img,
+ .ar6 img{
+    background-color: blue;
+    height: 200px;
+    width: 300px;
+ }
+
+
+ /* .baraka h5,
+ .baraka h6,
+ .paragraphe p,
+ .paragraphe button{
+     background-color: #c59d5f; 
+    line-height: 1.5;/*espacement entre les ligne joue sur la height
+    padding: 30;
+ } */
+paragraphe{
+    /* background-color: #c59d5f;
+    padding: 30;
+    line-height: 1.5;
+}*/
